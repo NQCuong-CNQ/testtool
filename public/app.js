@@ -8,4 +8,4 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
     return res.render('index');
 });
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, '103.207.37.120');
